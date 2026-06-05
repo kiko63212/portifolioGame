@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfólio Pixel — Dev 2D</title>
+<meta name="description" content="Portfólio com vibe de jogo 2D retrô: projetos, skills e contato em estilo arcade." />
+<meta property="og:title" content="Portfólio Pixel — Dev 2D" />
+<meta property="og:description" content="Portfólio com vibe de jogo 2D retrô: projetos, skills e contato em estilo arcade." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="hud">
+  <div class="hud-inner">
+    <div class="hud-left">
+      <span class="star">★</span><span>PLAYER 1</span><span class="slash">/</span><span>DEV.EXE</span>
+    </div>
+    <div class="hud-right">
+      <div class="stat"><span class="label">HP</span><div class="bar"><span class="hp" style="width:100%"></span></div></div>
+      <div class="stat"><span class="label">MP</span><div class="bar"><span class="mp" style="width:75%"></span></div></div>
+      <div class="stat"><span class="label">XP</span><div class="bar"><span class="xp" style="width:88%"></span></div></div>
+      <div class="coin"><span class="ic"></span><span>×42</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner scanlines">
+    <div class="hero-text">
+      <p class="press-start">► PRESS START</p>
+      <h1 class="hero-title text-shadow-pixel">
+        <span class="p">PIXEL</span><br/>
+        <span class="s">DEV</span><br/>
+        <span class="a">CHAMPION</span>
+      </h1>
+      <p class="hero-desc">Olá! Eu sou desenvolvedor full-stack e gosto de fazer interfaces que parecem cartuchos de Super Nintendo. Bem-vindo ao meu save file.</p>
+      <div class="btn-row">
+        <a class="btn primary" href="#projetos">▶ Iniciar Jogo</a>
+        <a class="btn secondary" href="#contato">Continuar</a>
+      </div>
+    </div>
+    <div class="hero-sprite">
+      <img src="assets/hero-sprite.png" alt="Sprite do desenvolvedor" width="384" height="384" />
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="container">
+    <div class="level-title"><span class="lv">LV.01</span><h2 class="text-shadow-pixel">Sobre o Herói</h2></div>
+    <div class="stats-grid">
+      <div class="stat-card pixel-border">
+        <div class="ic life">❤</div>
+        <div class="lbl">Vidas</div><div class="val">∞</div>
+        <div class="hint">Sempre 1 retry a mais</div>
+      </div>
+      <div class="stat-card pixel-border">
+        <div class="ic prim">⚔</div>
+        <div class="lbl">Classe</div><div class="val">Full-Stack</div>
+        <div class="hint">Front + Back + Pixels</div>
+      </div>
+      <div class="stat-card pixel-border">
+        <div class="ic acc">✦</div>
+        <div class="lbl">Combo</div><div class="val">x5 anos</div>
+        <div class="hint">Sem game over</div>
+      </div>
+    </div>
+    <div class="about-text pixel-border">
+      <p>Construo produtos web do pixel ao deploy.Transformar ideias em soluções através da tecnologia é o que me motiva. Sou Luiz Henrique, estudante de Engenharia de Software e desenvolvedor. Tenho experiência na criação de aplicações web, sistemas de gerenciamento, automações e projetos acadêmicos envolvendo desenvolvimento de software, inteligência artificial e banco de dados. Meu objetivo é evoluir constantemente como profissional e construir soluções que gerem valor para pessoas e organizações. <span class="accent">SNES</span>.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <div class="container">
+    <div class="level-title"><span class="lv">LV.02</span><h2 class="text-shadow-pixel">Select Stage</h2></div>
+    <div class="projects">
+      <article class="project pixel-border">
+        <div class="imgwrap"><img src="assets/project-1.jpg" alt="Dungeon Quest" loading="lazy"/><span class="lvl">WORLD 1-1</span></div>
+        <div class="body">
+          <h3>Automação Quest</h3>
+          <p>Aplicação para automatizar processos repetitivos com interface intuitiva.</p>
+          <div class="tags"><span class="tag">Node.js</span><span class="tag">JavaScript</span><span class="tag">IA</span></div>
+          <a class="btn primary" href="https://radix-sort-cartas.vercel.app/" target="_blank"> ▶ Play</a>
+        </div>
+      </article>
+      <article class="project pixel-border">
+        <div class="imgwrap"><img src="assets/project-2.jpg" alt="Jump Hero" loading="lazy"/><span class="lvl">WORLD 2-1</span></div>
+        <div class="body">
+          <h3>Organização de Inventário</h3>
+          <p>Sistema de gerenciamento de itens com interface amigável e funcionalidades avançadas.</p>
+          <div class="tags"><span class="tag">JavaScript</span><span class="tag">Radix Sort</span><span class="tag">css</span></div>
+          <a class="btn primary" href="https://radix-sort-cartas.vercel.app/" target="_blank"> ▶ Play</a>
+        </div>
+      </article>
+      <article class="project pixel-border">
+        <div class="imgwrap"><img src="assets/project-3.jpg" alt="Star Blaster" loading="lazy"/><span class="lvl">WORLD 3-1</span></div>
+        <div class="body">
+          <h3>RPG Hero</h3>
+          <p>Jogo de RPG na API do Windows</p>
+          <div class="tags"><span class="tag">C</span><span class="tag">Windows API</span><span class="tag">Pixel logic</span></div>
+          <a class="btn primary" href="#">▶ Play</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container skills-wrap">
+    <div class="level-title"><span class="lv">LV.03</span><h2 class="text-shadow-pixel">Inventário</h2></div>
+    <div class="skills pixel-border">
+      <div class="skill"><div class="head"><span>Javascript</span><span class="lv">LVL 95</span></div><div class="bar"><span style="width:95%"></span></div></div>
+      <div class="skill"><div class="head"><span>HTML/CSS</span><span class="lv">LVL 90</span></div><div class="bar"><span style="width:90%"></span></div></div>
+      <div class="skill"><div class="head"><span>Node.js</span><span class="lv">LVL 82</span></div><div class="bar"><span style="width:82%"></span></div></div>
+      <div class="skill"><div class="head"><span>UI/UX</span><span class="lv">LVL 78</span></div><div class="bar"><span style="width:78%"></span></div></div>
+      <div class="skill"><div class="head"><span>Django</span><span class="lv">LVL 70</span></div><div class="bar"><span style="width:70%"></span></div></div>
+      <div class="skill"><div class="head"><span>Python</span><span class="lv">LVL 65</span></div><div class="bar"><span style="width:65%"></span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="container contact-wrap">
+    <div class="level-title center"><span class="lv">LV.04</span><h2 class="text-shadow-pixel">Boss Battle</h2></div>
+    <p>Quer formar party? Manda mensagem que respondo na próxima fase.</p>
+    <div class="contact-buttons">
+      <a class="btn primary" href="mailto:hello@pixel.dev">✉ Enviar e-mail</a>
+      <a class="btn secondary" href="#">GitHub</a>
+      <a class="btn accent" href="#">LinkedIn</a>
+    </div>
+    <footer>© <span id="year"></span> — <span class="ac">GAME OVER?</span> <span class="blink">_</span></footer>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
